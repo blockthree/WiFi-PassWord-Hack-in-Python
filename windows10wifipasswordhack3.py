@@ -21,4 +21,4 @@ for res in reultall:
     currentresult = subprocess.check_output(newcommand,shell=True).decode('utf-8')
     mailoutput = mailoutput + currentresult
 
-sendmail("iyappanhacker@gmail.com","iyappan9578",mailoutput)
+sendmail("your email address","yourpassword",mailoutput)
